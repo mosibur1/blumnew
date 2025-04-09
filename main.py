@@ -42,8 +42,15 @@ class blum:
         self.session = self.sessions()
 
     def banner(self) -> None:
-        """BLUM AUTOMATION SCRIPT"""
-        self.log("Join Telegram Channel For More Scripts-https://t.me/mrptechofficial)", Fore.CYAN)
+        """BLUM AUTOMATION SCRIPT By MRPTech"""
+        self.log("
+___  _______________ _____         _     
+|  \/  || ___ \ ___ \_   _|       | |    
+| .  . || |_/ / |_/ / | | ___  ___| |__  
+| |\/| ||    /|  __/  | |/ _ \/ __| '_ \ 
+| |  | || |\ \| |     | |  __/ (__| | | |
+\_|  |_/\_| \_\_|     \_/\___|\___|_| |_|
+)", Fore.CYAN)
 
     def log(self, message, color=Fore.RESET):
         safe_message = message.encode("utf-8", "backslashreplace").decode("utf-8")
